@@ -14,7 +14,7 @@ ul {
 main, .content {
     margin: 0 auto;
     width: 980px;
-    position: relative;
+    position: relative;    
 }
 .logo {
     float: left;
@@ -162,7 +162,7 @@ li.slick-active button {
 .col-3 {
     text-align: center;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
     width: 29%;
     float: left;
     position: relative;
@@ -176,14 +176,14 @@ li.slick-active button {
     height: 300px;
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 10px;
+    /* padding-bottom: 15px; */
+    margin-left: 10px;    
 }
 .bloco-imagem b, p {
-    text-align: left;
+    text-align: center;
 }
 .bloco-texto {
-    margin-top: 3em;
+    margin-top: 3em;    
 }
 
 h3 {
@@ -191,14 +191,14 @@ h3 {
 }
 
 .bloco-imagens-texto {
-    background-color: #eeeeee;
+    background-color: #8fbc8f;
 }
 .bloco-imagens-texto:before {
     width: 100%;
     display: inline-block;
     content: '';
     height: 52px;
-    background: #ffffff;
+    background: #eeeeee;
     background-image: url('../img/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -292,6 +292,3 @@ cursor: pointer;
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 }  
-
-
-
